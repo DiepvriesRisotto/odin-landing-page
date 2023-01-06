@@ -26,3 +26,47 @@ a {
 .header img {
     width: 72px;
 }
+
+.welcome {
+    padding-top: 24px;
+    padding-bottom: 80px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    max-width: 80%;
+    margin: 0;
+}
+
+.welcome p {
+    font-size: 18px;
+    color: #e5e7eb;
+    max-width: 60%;
+    margin: 0;
+}
+
+.welcome img {
+    width: 480px;
+}
+
+button {
+    margin-top: 15px;
+    width: 120px;
+    border: none;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 6px;
+}
