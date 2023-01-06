@@ -1,0 +1,28 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 60px;
+    background-color: #1f2937;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+
+.header img {
+    width: 72px;
+}
